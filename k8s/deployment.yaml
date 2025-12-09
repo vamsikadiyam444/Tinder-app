@@ -18,7 +18,7 @@ spec:
         - name: backend
           image: vamsikrishna212/devtinder-be:v1
           ports:
-            - containerPort: 5000
+            - containerPort: 4500
           env:
             - name: NODE_ENV
               value: "production"
